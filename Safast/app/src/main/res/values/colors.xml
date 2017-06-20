@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="grey">#ddd</color>
+    <color name="white">#fff</color>
+    <color name="black">#000</color>
+
+    <color name="colorPrimary">#8e3533</color>
+    <color name="colorPrimaryDark">#632321</color>
+    <color name="colorAccent">#8e3533</color>
+    <color name="colorPrimarytext">#212121</color>
+    <color name="colorSecondText">#212121</color>
+    <color name="coloLink">#1ea4f7</color>
+    <color name="colorShadow">#3f3f3f</color>
+
+    <color name="colorFAB">@color/white</color>
+    <color name="colorFABPressed">@color/grey</color>
+
+    <color name="bombeiros">#b60f0f</color>
+    <color name="policiaCívil">#4594b5</color>
+    <color name="policiaFederal">#6b7e30</color>
+    <color name="delegaciaDaMulher">#cec04e</color>
+    <color name="samu">#d66a6a</color>
+    <color name="empty">#524f4c</color>
+
+</resources>

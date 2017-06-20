@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="android.app.safast">
+
+    <application
+        android:allowBackup="true"
+        tools:replace="android:icon"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+       <!-- android:hardwareAccelerated="false"
+        android:supportsRtl="true"-->
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="android.app.safast.InstructionsActivity"
+            android:launchMode='singleTask'
+            android:label="Instruções"></activity>
+        <activity
+            android:name="android.app.safast.CallActivity"
+            android:launchMode='singleTask'
+            android:label="Chamadas"></activity>
+        <activity
+            android:name="android.app.safast.WikiActivity"
+            android:launchMode='singleTask'
+            android:label="Wikis"></activity>
+        <activity
+        android:name="android.app.safast.ArticleActivity"
+            android:launchMode='singleTask'
+        android:label="Artigos"></activity>
+        <activity
+        android:name="android.app.safast.AlarmActivity"
+            android:launchMode='singleTask'
+        android:label="Alarme"></activity>
+        <activity
+        android:name="android.app.safast.AboutUsActivity"
+        android:launchMode='singleTask'
+        android:label="aboutUs"></activity>
+        <activity
+        android:name="android.app.safast.SoonActivity"
+        android:launchMode='singleTask'
+        android:label="Soon"></activity>
+
+    </application>
+    <!-- DANGEROUS PERMISSIONS -->
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+</manifest>

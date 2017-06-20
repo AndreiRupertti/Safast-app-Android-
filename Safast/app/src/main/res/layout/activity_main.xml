@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimarytext"
+
+    android:orientation="vertical"
+    tools:context="android.app.safast.MainActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/tb_main"
+        android:elevation="0dp"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_width="match_parent"
+        android:minHeight="?attr/actionBarSize"
+        android:layout_alignParentLeft="true"
+        android:background="?attr/colorPrimary"
+
+        android:layout_gravity="right"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Dark" />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:src="@drawable/logo"
+        android:id="@+id/iv_logo">
+    </ImageView>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_below="@+id/iv_logo"
+        android:layout_marginTop="50dp">
+
+        <ImageButton
+            android:layout_width="130dp"
+            android:layout_height="100dp"
+            android:text="Call"
+            android:background="@drawable/screen_border"
+            android:src="@drawable/ic_call_white_48dp"
+            android:id="@+id/bt_call"
+            android:layout_margin="15dp">
+
+        </ImageButton>
+
+        <ImageButton
+            android:layout_width="130dp"
+            android:layout_height="100dp"
+            android:text="Wiki"
+            android:background="@drawable/screen_border"
+            android:src="@drawable/ic_wiki_48dp"
+            android:id="@+id/bt_wiki"
+            android:layout_margin="15dp">
+        </ImageButton>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <ImageButton
+            android:layout_width="130dp"
+            android:layout_height="100dp"
+            android:text="Alarm"
+            android:background="@drawable/screen_border"
+            android:src="@drawable/ic_flare_white_48dp"
+            android:id="@+id/bt_alarm"
+            android:layout_margin="15dp">
+        </ImageButton>
+
+        <ImageButton
+            android:layout_width="130dp"
+            android:layout_height="100dp"
+            android:text="Options"
+            android:background="@drawable/screen_border"
+            android:src="@drawable/ic_instructions_white_48dp"
+            android:id="@+id/bt_instructions"
+            android:layout_margin="15dp">
+        </ImageButton>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">Safast</string>
+
+    <string name="placeholder">\n"Lorem ipsum dolor sit amet,\n consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</string>
+
+    <string name="alagamentos"></string>
+        <string name="hello">
+             <body style="text-align:justify;color:gray;background-color:black;">
+              Inundações repentinas, bruscas ou enxurradas, que ocorrem em regiões de relevo acentuado, montanhoso, como na região Sul do País. Acontecem pela presença de grande quantidade de água num curto espaço de tempo. São frequentes em rios de zonas montanhosas com bastante inclinação, vales profundos e muitas vezes as águas de chuva arrastam terra sem vegetação devido aos deslizamentos nas margens dos rios. A grande quantidade de água e materiais arrastados representam, à medida que escoam, grande poder destruidor.
+
+
+        Se previnindo:
+
+        Não deixe crianças trancadas em casa sozinhas;
+
+        Mantenha sempre pronta água potável, roupa e remédios, caso tenha que sair rápido da sua casa;
+
+        Conheça o Centro de Saúde mais próximo da sua casa, pode ser necessário;
+
+        Avise aos seus vizinhos sobre o perigo, no caso de casas construídas em áreas de risco de deslizamento. Avise, também, imediatamente ao Corpo de Bombeiros e à Defesa Civil;
+
+        Convença as pessoas que moram nas áreas de risco a saírem de casa durante as chuvas;
+
+        Avise imediatamente ao Corpo de Bombeiros ou Defesa Civil sobre áreas afetadas pela inundação;
+
+        Jogue o lixo no lixo. Não jogue lixo em terrenos baldios ou na rua. Não jogue papel e lixo na rua;
+
+        Não jogue sedimentos, troncos, móveis, materiais e lixo que impedem o curso do rio, provocando transbordamentos;
+
+        Não jogue lixo nos bueiros (boca de lobo), para não obstruir o escoamento da água;
+
+        Limpe o telhado e canaletas de águas para evitar entupimentos;
+
+
+        Enfrentando a inundação:
+
+        Tenha um lugar previsto, seguro, onde você e sua família possam se alojar no caso de uma inundação;
+
+        Desconecte os aparelhos elétricos da corrente elétrica para evitar curtos circuitos nas tomadas;
+
+        Não construa próximo a córregos que possam inundar;
+
+        Não construa em cima de barrancos que possam deslizar, carregando sua casa;
+
+        Não construa embaixo de barrancos que possam deslizar, soterrando sua casa;
+
+        Feche o registro de entrada d`água;
+
+        Não use equipamentos elétricos que tenham sido molhados ou em locais inundados, pois há risco de choque elétrico e curto-circuito
+
+        Retire todo o lixo e leve para áreas não sujeitas a inundações;
+
+        Feche bem as portas e janelas.
+
+
+        Após a inundação:
+
+        Enterre animais mortos e limpe os escombros e lama deixados pela inundação;
+
+        Lave e desinfete os objetos que tiveram contato com as águas da enchente;
+
+        Retire todo o lixo da casa e do quintal e o coloque para a limpeza pública;
+
+        Veja se sua casa não corre o risco de desabar;
+
+        Raspe toda a lama e o lixo do chão, das paredes, dos móveis e utensílios;
+
+        Cuidado com aranhas, cobras e ratos, ao movimentar objetos, móveis e utensílios.
+
+        Tenha cuidado com cobras e outros animais venenosos, pois eles procuram refúgio em lugares secos.
+             </body>
+        </string>
+</resources>

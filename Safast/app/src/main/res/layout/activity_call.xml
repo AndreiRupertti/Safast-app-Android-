@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimarytext">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/tb_main"
+        android:elevation="0dp"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_width="match_parent"
+        android:minHeight="?attr/actionBarSize"
+        android:layout_alignParentLeft="true"
+        android:background="?attr/colorPrimary"
+
+        android:layout_gravity="right"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Dark" />
+
+    <ListView
+        android:layout_below="@+id/tb_main"
+        android:id="@+id/mobile_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="56dp"
+        android:clipToPadding="false"
+        android:scrollbarStyle="outsideOverlay">
+
+    </ListView>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/fab_margin"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="end|bottom"
+        app:elevation="@dimen/cardview_default_elevation"
+        android:clickable="true"
+        android:src="@drawable/ic_plus_white_48dp" />
+</RelativeLayout>

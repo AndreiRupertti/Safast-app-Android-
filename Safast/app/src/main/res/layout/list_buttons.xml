@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/ll_item">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/screen_border"
+        android:padding="10dp"
+        android:id="@+id/rl_item"
+        android:layout_marginTop="24dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:elevation="10dp">
+
+
+        <ImageView
+            android:id="@+id/iv_1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@null"/>
+        <TextView
+            android:layout_toRightOf="@+id/iv_1"
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:textColor="@color/white"
+            android:text="Bombeiros"/>
+        <TextView
+            android:layout_toRightOf="@+id/iv_1"
+            android:layout_below="@+id/tv_name"
+            android:id="@+id/tv_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="13dp"
+            android:text="199"/>
+        <TextView
+            android:layout_toLeftOf="@+id/btn_call"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_marginRight="15dp"
+            android:textSize="35dp"
+            android:text="|"/>
+
+        <ImageButton
+            android:id="@+id/btn_call"
+            android:layout_width="36dp"
+            android:layout_alignParentRight="true"
+            android:layout_height="36dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/ic_phone_white_48dp"
+            android:background="@null"/>
+    </RelativeLayout>
+
+
+
+</LinearLayout>
